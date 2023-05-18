@@ -1,0 +1,20 @@
+@mixin centrarContenido {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@mixin hover{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+@mixin centradoTexto{
+    text-align: center;
+}
+@mixin titulo-principal {
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+    text-align: center;
+  }
