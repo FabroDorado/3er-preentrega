@@ -47,9 +47,36 @@ main{
 
 .carousel{
     gap: 1rem;}
+
+.parrafo{
+    display: block;
+}
+footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.form-register{
+    width: 400px;
+    background-color: $color-principal;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 5px;
+}
+.controls{
+    width: 100%;
+    background-color: $colores-letra;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 3px solid $color-border;
+
+}
+
 @media screen and (min-width:660px) {
-    div.img-cuatro{
-        display: flex;}}
+    .parrafo{
+        display: none;
+    } }
 @media screen and (min-width:1024px){
     header{
         display: flex;
@@ -61,7 +88,7 @@ main{
         gap: 1.5rem;}
     a:hover{
         background-image: $colores-secundarios;
-        font-size: 1.3rem;
+        font-size: 1rem;
         font-weight: bold;}
     .imgMuestra{
         display: grid;
@@ -70,13 +97,7 @@ main{
         object-fit: cover;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 50% 50%;}
-    .footer {
-        background-color: black;
-            position: fixed;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            height: 100%;}}
+    
     .carousel{
         height: 70vh;
         display: grid;
@@ -117,3 +138,18 @@ main{
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: auto;
             margin: auto;}
+
+    .parrafo{
+        display: block;
+    }
+    
+    p{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 150px;
+        margin-right: 150px;
+
+    }        
+
+}
+            
